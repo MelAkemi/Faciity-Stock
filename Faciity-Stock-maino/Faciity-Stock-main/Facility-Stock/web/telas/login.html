@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="pt-BR">
+    <title>Cadastro de Materiais</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <link rel="shortcut icon" href="../img/logo.svg">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../img/logo.svg">
+        </a>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../telas/quemSomos.html">Quem somos</a>
+            <a href="../telas/telaCadastrar.html">Cadastra-se</a>
+        </nav>
+    </header>
+    <section>
+        <div class="imagem">
+            <img class="rodape-imagem" src="../img/stockbot.svg" width="300px">
+        </div>
+        <form method="post" action="../java/TelaCadastro.jsp" class="cadastro">
+            <div class="conteudos">
+                <p>
+                    <label for="id"> E-mail: </label><br>
+                    <input type="email" name="id" id="id" required class="input">
+                </p>
+                <p>
+                    <label for="nome"> Senha: </label><br>
+                    <input type="password" name="nome" size="50" maxlength="70" id="nome" required class="input">
+                </p>
+                <p>Se ainda não é cadastrado, <a href="../telas/telaCadastrar.html" class="cadastre">Cadastra-se</a></p>
+
+                <p>
+                    <input type="submit" name="acao" value="Entrar" class="botao">
+                </p>
+
+            </div>
+        </form>
+    </section>    
+    <footer class="rodape">
+        <p>&copy; 2022 Grupo Createc - Uninove</p>
+    </footer>
+</body>
+
+</html>

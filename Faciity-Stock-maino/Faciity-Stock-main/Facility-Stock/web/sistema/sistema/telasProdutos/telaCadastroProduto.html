@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head lang="pt-BR">
+        <title>Cadastro de Materiais</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/cadastro.css">
+    </head>
+    <body>
+        <form method="post" action="../java/TelaCadastro.jsp" class="cadastro">
+            <div class="conteudos">
+                <p>
+                    <label for="id"> ID do Material*: </label><br>
+                    <input type="number" name="id" id="id" placeholder="Código do Material" required class="input">
+                </p>
+                <p>
+                    <label for="nome"> Nome do Material*: </label><br>
+                    <input type="text" name="nome" placeholder="Nome do Material" size="50" maxlength="70" id="nome" required class="input">
+                </p>
+                <p>
+                    <label for="descricao"> Descrição do Material: </label><br>
+                    <input type="text" name="descricao" placeholder="Descrição do Material" size="30" maxlength="70" id="descricao" class="input">
+                </p>
+                <p>
+                    <label for="valor"> Valor: </label><br>
+                    <input type="number" name="valor" id="valor" placeholder="Valor" class="input">
+                </p>
+                <p>
+                    <label for="qtd"> Quantidade: </label><br>
+                    <input type="number" name="qtd" id="qtd" placeholder="Quantidade" class="input">
+                </p>
+                <p>
+                    <input type="submit" name="acao" value="Cadastrar Material" class="botao">
+                </p>
+            </div>
+        </form>
+    </body>
+</html>

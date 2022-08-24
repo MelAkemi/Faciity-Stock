@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+/*reset css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    align-items: center;   
+    width: 99%;
+    height:2200px;
+    background: rgb(216, 198, 198);
+
+}
+
+div h1 {
+    color: rgb(241, 102, 102);
+}
+
+/*CABEÇALHO*/
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: rgba(245, 176, 176, 0.61);
+    width: 20%;
+    height: 200px;
+    nav-left: 20px;
+    top: 0;
+    margin-left: 20px;
+    position: absolute;
+    border-radius: 15px;
+}
+
+nav a{
+    padding-top:10px;
+    font-family: 'Sarala', sans-serif;
+    color: #6d2121;
+    
+}
+
+header a:hover, nav a:hover{
+    color:black;
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    background: rgba(245, 176, 176, 0.61);
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    width: 500px;
+    border-radius: 15px;
+    font-family: 'Sarala', sans-serif;
+    color: #6d2121;
+}
+
+header a{
+    color: #6d2121;
+}
+
+/*PARALLAX*/
+
+section#img-01 {
+    background: url(../img/estoque1.png);
+    background-position: top center;
+    background-size: 600px;
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    background-attachment:fixed;
+}
+
+section h1 {
+    display: flex;
+    justify-content: left;
+    padding-top: 250px;
+}
+
+section#img-02{
+    background: url(../img/estoque2.jpg);
+    background-position: center center;
+    background-size:600px;
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    background-attachment: fixed;
+}
+
+section#img-03{
+    background: url(../img/estoque3.jpg);
+    background-position: center center;
+    background-size:600px;
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    background-attachment: fixed;
+}
+
+/*SOBRE A EMPRESA*/
+.tituloQuemSomos {
+    color: rgb(64, 64, 65);
+    font-style: oblique;
+    text-align: end;
+}
+
+.introducao {
+    width: 600px;
+    height: 500px;
+    background: rgb(216, 198, 198);
+    margin-top: 10px;
+}
+
+.introducao{
+    text-align: end;
+}
+
+.introducao p {
+    font-family: 'Sarala', sans-serif;
+    color: #6d2121;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 8px;
+}
+
+/*VALORES DA EMPRESA*/
+.valores {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    background: rgba(64, 64, 65, 0.171);
+    border-radius: 15px;
+}
+.tituloValores {
+    color: rgba(64, 64, 65, 0.199);
+    font-style: oblique;
+    text-align: end;
+}
+
+.valores p {
+    padding: 8px;
+    color: #6d2121;
+}
+
+#lista li{
+    padding: 8px;
+    color: #6d2121;
+}
+
+
+/*CONTATO, ENDEREÇO, SUPORTE*/
+.contatos {
+    color: #FFF2E7;
+    font-style: oblique;
+    text-align: end;
+}
+
+.final {
+
+    height: 480px;
+    background: rgb(64, 64, 65);
+    margin: 20px;
+    border-radius: 15px;
+}
+
+/*ORÇAMENTO*/
+.orcamento {
+    color: rgb(245, 176, 176);
+    font-style: oblique;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    background-color: #6d2121;
+    margin: 10px;
+    color: #FFF2E7;
+    border-radius: 10px;
+    border: 2px solid rgb(216, 198, 198);
+    cursor: pointer;
+    transition: .5s;
+    font-weight: bolder;
+}
+
+button:hover {
+    background: rgb(216, 198, 198);
+    color: black;
+    transition: .5s;
+    border: 2px solid #6d2121;
+}
+
+/*QUEM SOMOS, ENDEREÇO E CONTATO*/
+.informacoes {
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFF2E7;
+}
+
+.informacoes p {
+    margin: 10px;
+}
+
+/*INSTITUCIONAL*/
+#institucional {
+    width: 180px;
+    height: 200px;
+}
+
+#institucional p {
+    margin: 20px;
+}
+
+#institucional a {
+    color: #FFF2E7;
+}
+
+#institucional a:hover {
+    color: rgb(245, 176, 176);
+}
+
+ /*SERVIÇOS*/
+#servicos {
+    width: 200px;
+    height: 200px;
+}
+
+#servicos p{
+    margin: 20px;
+}
+
+#servicos a {
+    color: #FFF2E7;
+}
+
+#servicos a:hover {
+    color: rgb(245, 176, 176);
+}
+
+section h3 {
+    color: rgb(245, 176, 176);
+}
+
+

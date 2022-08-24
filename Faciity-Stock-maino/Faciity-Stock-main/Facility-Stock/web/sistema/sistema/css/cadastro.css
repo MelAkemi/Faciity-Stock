@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+/*reset css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    align-items: center;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Sarala', sans-serif;
+    color: #0d346b;
+    font-weight: 400;
+    font-size: 18px;
+    width: 100%;
+}
+
+.cadastro {
+    margin-top: 10px;
+}
+
+.conteudos {
+    width: 500px;
+    height: 480px;
+    padding: 40px;
+    padding-top: 26px;
+    border: solid 5px rgba(128, 128, 128, 0.26);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudos p {
+    padding: 6px;
+}
+
+.input {
+    width: 360px;
+    height: 25px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    padding: 15px ;
+    cursor: pointer;
+    position: relative;
+    left: 210px;
+    top: 15px;
+    transition: all .9s;
+    font-weight: 600;
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0d346b;
+    background: rgba(128, 128, 128, 0.26);
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+.botao:hover {
+    content: "";
+    background: #0d346b;
+    color: #ffffff;
+}
+
+
+

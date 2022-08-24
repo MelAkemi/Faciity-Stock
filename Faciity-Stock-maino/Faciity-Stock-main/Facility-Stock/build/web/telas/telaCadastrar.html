@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/cadastrar.css">
+        <link rel="shortcut icon" href="../img/logo.svg">
+        <title>Cadastra-se</title>
+    </head>
+    <body>
+        <header>
+            <img src="../img/logo.svg" alt="Logo da Empresa" class="cabecalho-logo">
+            <nav class="cabecalho-menu">
+                <a href="../index.html">Home</a>
+                <a href="../telas/quemSomos.html">Quem somos</a>
+                <a href="../telas/login.html">Login</a>
+            </nav>
+        </header>
+
+        <main class="conteudo">
+            <img src="../img/stockbot.svg" class="conteudo-bot">
+            <form method="post" action="../java/TelaCadastrar.jsp">
+                <div class="conteudos">
+                    <p class="form">
+                        <label for="nome">Nome: </label><br>
+                        <input type="text" name="nome" id="nome" required class="input">
+                    </p>
+                    <p class="form">
+                        <label for="sobrenome">Sobrenome: </label><br>
+                        <input type="text" name="sobrenome" id="sobrenome" class="input">
+                    </p>
+                    <p class="form">
+                        <label for="email" role="text" name="email">Email: </label><br>
+                        <input type="email" name="email" id="email" required class="input">
+                    </p>
+                    <p class="form">
+                        <label for="senha">Senha: </label><br>
+                        <input type="password" name="senha" id="senha" required class="input">
+                    </p>
+                    <p class="login">Se já for cadastrado faça seu <a href="../telas/login.html" class="login-link">login</a></p>
+                    <p>
+                        <input value="Cadastrar" name="botao" type="submit" class="botao">
+                    </p>
+                </div>
+            </form>
+        </main>
+
+        <footer class="rodape">
+            <p>&copy; 2022 Grupo Createc - Uninove</p>
+        </footer>
+    </body>
+</html>
